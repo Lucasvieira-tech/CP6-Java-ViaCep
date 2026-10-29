@@ -88,7 +88,7 @@ GET http://localhost:8080/enderecos/01001000
 
 ```json
 {
-  "cep": "01001-000",
+  "cep": "01001000",
   "logradouro": "Praça da Sé",
   "bairro": "Sé",
   "cidade": "São Paulo",
@@ -205,4 +205,4 @@ A aplicação retorna a mensagem `CEP não encontrado na ViaCEP.` quando o CEP n
 ## Integrantes
 
 - Lucas Marti Zapater Vieira — RM 571053
-- Christian Versellezi Barbuto — RM 586677
+- Christian Versellezi Barbuto — RM 568677
