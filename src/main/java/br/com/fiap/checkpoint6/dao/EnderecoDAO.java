@@ -39,6 +39,7 @@ public class EnderecoDAO {
 
             while (resultado.next()) {
                 Endereco endereco = new Endereco();
+                endereco.setId(resultado.getLong("id"));
                 endereco.setCep(resultado.getString("cep"));
                 endereco.setLogradouro(resultado.getString("logradouro"));
                 endereco.setBairro(resultado.getString("bairro"));
